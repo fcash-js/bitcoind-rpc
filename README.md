@@ -1,18 +1,18 @@
-bitcoind-rpc.js
+fcashd-rpc.js
 ===============
 
-[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc)
-[![Build Status](https://img.shields.io/travis/fcash-js/bitcoind-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/fcash-js/bitcoind-rpc)
-[![Coverage Status](https://img.shields.io/coveralls/fcash-js/bitcoind-rpc.svg?style=flat-square)](https://coveralls.io/r/fcash-js/bitcoind-rpc?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/fcashd-rpc.svg?style=flat-square)](https://www.npmjs.org/package/fcashd-rpc)
+[![Build Status](https://img.shields.io/travis/fcash-js/fcashd-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/fcash-js/fcashd-rpc)
+[![Coverage Status](https://img.shields.io/coveralls/fcash-js/fcashd-rpc.svg?style=flat-square)](https://coveralls.io/r/fcash-js/fcashd-rpc?branch=master)
 
 A client library to connect to Fcash Core RPC in JavaScript.
 
 ## Get Started
 
-bitcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+fcashd-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install bitcoind-rpc
+npm install fcashd-rpc
 ```
 
 ## Examples
@@ -20,7 +20,7 @@ npm install bitcoind-rpc
 ```javascript
 var run = function() {
   var fcash_base = require('fcash-base');
-  var RpcClient = require('bitcoind-rpc');
+  var RpcClient = require('fcashd-rpc');
 
   var config = {
     protocol: 'http',
